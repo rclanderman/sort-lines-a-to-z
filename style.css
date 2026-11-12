@@ -1,0 +1,12 @@
+:root { color-scheme: light dark; --text: #202124; --muted: #5f6368; --bg: #ffffff; --accent: #0b7a75; --rule: #dadce0; }
+@media (prefers-color-scheme: dark) { :root { --text: #e8eaed; --muted: #9aa0a6; --bg: #202124; --accent: #4fbdb6; --rule: #3c4043; } }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 Arial, Helvetica, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+header img { width: 48px; height: 48px; }
+h1 { font-size: 26px; line-height: 1.25; margin: 0; }
+h2 { font-size: 19px; margin: 32px 0 8px; }
+nav { font-size: 14px; margin: 8px 0 24px; padding-bottom: 12px; border-bottom: 1px solid var(--rule); }
+nav a { margin-right: 16px; }
+a { color: var(--accent); }
+.muted { color: var(--muted); font-size: 14px; }
